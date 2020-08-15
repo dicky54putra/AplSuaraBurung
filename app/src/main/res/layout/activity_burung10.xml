@@ -1,0 +1,3199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bgterj"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/txtclub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="MP3 BURUNG"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtclub"
+            android:layout_marginTop="6dp"
+            android:fontFamily="serif"
+            android:text="LAIN - LAIN"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp" />
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="90dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/logooo" />
+
+    </RelativeLayout>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/bgremotperkutut"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+       <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/play1"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_row="1"
+                            android:layout_column="1"
+                            android:layout_margin="16dp"
+                            android:height="90dp"
+                            android:fontFamily="serif"
+                            android:src="@drawable/play1"
+                            android:textSize="16dp" />
+
+                        <ImageButton
+                            android:id="@+id/pause1"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_row="1"
+                            android:layout_column="1"
+                            android:layout_margin="16dp"
+                            android:height="90dp"
+                            android:fontFamily="serif"
+                            android:src="@drawable/pause"
+                            android:textSize="16dp" />
+
+                        <ImageButton
+                            android:id="@+id/stop1"
+                            android:layout_width="75dp"
+                            android:layout_height="75dp"
+                            android:layout_row="1"
+                            android:layout_column="1"
+                            android:layout_margin="16dp"
+                            android:height="90dp"
+                            android:fontFamily="serif"
+                            android:src="@drawable/stop1"
+                            android:textSize="16dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="serif"
+                            android:text="Tledekan Gacor"
+                            android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                    </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play2"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause2"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop2"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="serif"
+                                android:text="Tledekan Gunung"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play3"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause3"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop3"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Tengkek Buto Gacor"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play4"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause4"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop4"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Tengkek Buto Asli"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play5"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause5"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop5"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Sirtu Gacor"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play6"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause6"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop6"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Branjangan Jawa"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play7"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause7"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop7"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Sirtu Manggil-manggil"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play8"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause8"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop8"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Sikatan Hainan Gacor"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play9"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause9"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop9"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Prenjak Konslet"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play10"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause10"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop10"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Prenjak"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play11"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause11"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop11"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Pleci Ngerol"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play12"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause12"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop12"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Pleci Muria"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play13"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause13"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop13"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Pleci Dukun Bali"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play14"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause14"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop14"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Parkit Suara Pasang"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play15"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause15"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop15"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Parkit Betina"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play16"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause16"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop16"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Nightingale Gacor"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play17"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause17"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop17"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Nightingale Variasi"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play18"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause18"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop18"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Murai Batu Kristal"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play19"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause19"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop19"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Kutilang Isian"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play20"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause20"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop20"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Kutilang Gacor"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play21"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause21"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop21"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Kalibri Ninja Betina"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play22"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause22"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop22"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Kalibri Gacor Isian"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play23"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause23"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop23"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Kepodang Emas Pikat"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play24"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause24"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop24"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Kepodang Emas"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play25"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause25"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop25"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Kapas Tembak Isian"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play26"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause26"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop26"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Kapas Tembak Asli"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play27"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause27"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop27"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Jalak Suren Isian"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play28"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause28"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop28"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Jalak Suren Alami"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play29"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause29"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop29"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Jalak Kebo"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play30"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause30"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop30"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Gelatik Alami"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play31"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause31"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop31"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Gelatik Nembak"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play32"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause32"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop32"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Cucak Rowo"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play33"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause33"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop33"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Cucak Rowo Isian"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play34"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause34"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop34"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Cucak Jenggot Isian"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play35"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause35"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop35"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Cililin Asli"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play36"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause36"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop36"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Cilbek Asli"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play37"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause37"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop37"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Ciblek Kristal"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play38"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause38"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop38"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Ciblek Alami"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+                <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginBottom="0dp"
+                    android:alignmentMode="alignMargins"
+                    android:columnCount="3"
+                    android:columnOrderPreserved="false"
+                    android:rowCount="3">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <ImageButton
+                                android:id="@+id/play39"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/play1"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/pause39"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/pause"
+                                android:textSize="16dp" />
+
+                            <ImageButton
+                                android:id="@+id/stop39"
+                                android:layout_width="75dp"
+                                android:layout_height="75dp"
+                                android:layout_row="1"
+                                android:layout_column="1"
+                                android:layout_margin="16dp"
+                                android:height="90dp"
+                                android:fontFamily="serif"
+                                android:src="@drawable/stop1"
+                                android:textSize="16dp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:fontFamily="serif"
+                                android:gravity="center_horizontal"
+                                android:text="Branjangan Jawa"
+                                android:textSize="24dp"
+android:textColor="#ffffff" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </GridLayout>
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "598929483777",
+    "firebase_url": "https://apl-suaraburung.firebaseio.com",
+    "project_id": "apl-suaraburung",
+    "storage_bucket": "apl-suaraburung.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598929483777:android:12a67326a2e4c7df87b800",
+        "android_client_info": {
+          "package_name": "app.gss.aplsuaraburung.aplsuaraburung"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598929483777-va226b6vb0151st7jp0darl6t0ss39i1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "app.gss.aplsuaraburung.aplsuaraburung",
+            "certificate_hash": "281d3b43ea64401d7a68a0fd00ee5259f2f84188"
+          }
+        },
+        {
+          "client_id": "598929483777-53d0t5l8tmmfmjc558jbju2fiikpgbrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkzLpcY1rYhg2F4HtfDJT62tR22x5lCK0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598929483777-53d0t5l8tmmfmjc558jbju2fiikpgbrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
